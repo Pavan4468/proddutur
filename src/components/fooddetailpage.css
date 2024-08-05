@@ -1,0 +1,36 @@
+.food-detail-page {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.food-detail-page h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.food-detail-page .food-detail-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.food-detail-page p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.food-detail-page a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.food-detail-page a:hover {
+  text-decoration: underline;
+}
+

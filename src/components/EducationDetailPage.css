@@ -1,0 +1,64 @@
+/* src/components/EducationDetailPage.css */
+
+.education-detail-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0; /* Light background color for the detail page */
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #1E90FF; /* Blue background color for the back button */
+    color: #fff; /* White text color for the back button */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Optional: Rounded corners for button */
+  }
+  
+  .back-button:hover {
+    background-color: #4682b4; /* Darker blue for back button hover effect */
+  }
+  
+  h1, h2, p {
+    color: #123C69; /* Darker text color for better readability */
+  }
+  
+  .institution-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Rounded corners for images */
+  }
+  
+  .institution-details {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fff; /* White background color for details section */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for details section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  }
+  
+  ul {
+    list-style-type: square; /* Square bullets for lists */
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+/* src/components/EducationDetailPage.css */
+ul {
+    list-style-type: square; /* Ensure list-style is visible */
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    color: #333; /* Ensure list items are visible */
+  }
+    

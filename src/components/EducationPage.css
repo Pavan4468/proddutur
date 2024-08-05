@@ -1,0 +1,61 @@
+/* src/components/EducationPage.css */
+
+.education-page {
+  padding: 20px;
+  text-align: center;
+  background-color: black; /* Black background color for the education page */
+}
+
+.back-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #1E90FF; /* Blue background color for the back button */
+  color: #fff; /* White text color for the back button */
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Optional: Rounded corners for button */
+}
+
+.back-button:hover {
+  background-color: #4682b4; /* Darker blue for back button hover effect */
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #fff; /* White text color for headings */
+}
+
+.education-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.education-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.education-item:hover {
+  transform: scale(1.05);
+}
+
+.education-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.education-item p {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff; /* White text color for education item descriptions */
+}
